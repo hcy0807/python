@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#by hcy
 
 def hello():
 	print "hello"
@@ -7,4 +8,5 @@ def hello():
 def bar():
 	print "bar"
 
-hello()
+if __name__ == "__main__":
+	hello()
